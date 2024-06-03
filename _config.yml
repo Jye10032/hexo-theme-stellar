@@ -200,7 +200,7 @@ search:
 
 ######## Comments ########
 comments:
-  service: # beaudar, utterances, giscus, twikoo, waline, artalk
+  service: giscus # beaudar, utterances, giscus, twikoo, waline, artalk
   comment_title: 快来参与讨论吧~
   # beaudar
   # https://beaudar.lipk.org/
@@ -227,18 +227,17 @@ comments:
   # https://giscus.app/zh-CN
   giscus:
     src: https://giscus.app/client.js
-    data-repo: xxx/xxx # [在此输入仓库]
-    data-repo-id: # [在此输入仓库 ID]
-    data-category: # [在此输入分类名]
-    data-category-id:
-    data-mapping: pathname
+    data-repo: Jye10032/MyBlog
+    data-repo-id: R_kgDOK1ZUIQ
+    data-category: Announcements
+    data-category-id: DIC_kwDOK1ZUIc4Cf0IS
+    data-mapping: title
     data-strict: 0
     data-reactions-enabled: 1
     data-emit-metadata: 0
-    data-input-position: top # top, bottom
+    data-input-position: top
     data-theme: preferred_color_scheme
     data-lang: zh-CN
-    data-loading: # lazy
     crossorigin: anonymous
 
   # Twikoo
